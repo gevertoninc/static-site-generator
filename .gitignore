@@ -1,0 +1,8 @@
+# Packages
+node_modules
+
+# VSCode
+*.code-workspace
+
+# Local history
+.history

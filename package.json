@@ -1,0 +1,23 @@
+{
+  "name": "static-site-generator",
+  "version": "1.0.0",
+  "description": "Just a static site generator",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./scripts/build",
+    "serve": "serve -n ./public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Geverton",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "front-matter": "^4.0.2",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.1.7",
+    "marked": "^2.1.3"
+  },
+  "devDependencies": {
+    "serve": "^12.0.0"
+  }
+}
